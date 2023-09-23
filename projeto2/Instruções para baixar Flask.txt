@@ -1,0 +1,32 @@
+Para baixar o flask pela primeira vez!
+(IMPORTANTE CONFERIR A VERSÃO DO PYTHON)
+1-Abrir o Terminal, não o prompt de comando.
+	python -V (versão precisa ser a partir da 3. 6)
+2-Entrar na pasta que deseja criar o projeto.(cd .\caminho)
+3-Criar a pasta do projeto.(mkdir nome_pasta)
+4-Digitar o comando:
+	python -m venv venv
+5-Conferir se criou o arquivo. (ls)
+6-Quando for inicializar pela primeira vez, vai dar um erro. Para corrigir, basta entrar no PowerShell como administrador e dar o seguinte comando:
+	Set-ExecutionPolicy -ExecutionPolicy Allsigned
+  Logo após, basta confirmar com a letra A maiuscula.
+7-Vontando pro terminal, basta inicializar novamente com o comando: 
+	.\venv\Scripts\activate
+8-Do lado esquerdo, irá aparecer escrito (venv) verde.
+  Significa que você esta no ambiente virtual.
+9-Dar o comando para instalar o flask (windows).
+	pip install flask
+  (conferir se a ambiente virtual enta on, pq senão estiver vai baixar na sua maquina) 
+10-Para ver a versão do flask instalada.
+	flask --version
+11-Ver tudo que foi baixado com o flask.
+	pip freeze
+12-Para fazer o arquivo com todos os requirementos.
+	pip freeze > req.txt
+13-Para ver aonde o flask está rodando.
+	flask run
+14-Para desativar o flask.
+	deactivate
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Você pode realizar o mesmo procedimento no vscode, usando o terminal.
+Esse procedimento de ir no powershell como adm é apenas para a primeira vez que está instalando.
