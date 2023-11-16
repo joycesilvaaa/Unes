@@ -21,7 +21,7 @@ Durante as aulas de Desenvolvimento Web, elaboramos o site da UNES como parte do
 >
 > Abrir em uma pasta o Git Bash ou Prompt de Comando e dar a seguinte instrução:
 >
-    git clone https://github.com/joycesilvaaa/Atletica_Fatec-SJC.git
+    https://github.com/joycesilvaaa/Unes.git
     
 >
 > Criar um ambiente virtual:
