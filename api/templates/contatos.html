@@ -10,14 +10,15 @@ CONTATO
             <h1>Entre em contato</h1>
             <p>Deixe o assunto que deseja conversar logo a baixo, retornaremos o mais breve possivel!</p>
         </div>
-        <div class="forma">
-            <p>Seu e-mail:</p>
-            <input type="email" name="" id="">
-            <p>Assunto:</p>
-            <input type="text">
-            <p>Descrição:</p>
-            <textarea name="" id="" cols="30" rows="5"></textarea>
-            <button class="botao">Enviar</button> 
+            <form class="formulario" action="/CONTATOS" method="POST">
+                <label for="email">E- mail</label>
+                <input type="text" name="email" placeholder="Digite seu email" required>
+                <label for="Assunto" >Assunto</label>
+                <input type="text" name="assunto" placeholder="Digite o assunto" required>
+                <label for="conteudo">Descrição</label>
+                <textarea name="conteudo" placeholder="Digite a descrição" required></textarea>
+                <button type="submit"> Enviar</button>
+            </form>
         </div>
     </main>   
 {% endblock %}
