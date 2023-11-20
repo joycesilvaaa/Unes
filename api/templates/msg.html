@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %} 
+Mensagens
+{% endblock %}
+{% block content %}
+
+    <section>
+        <div>
+            <h1>Mensagens enviadas</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Email</th>
+                        <th>Assunto</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for x in msg %}
+                    <tr>
+                        <td>{{ x[0] }}</td>
+                        <td>{{ x[1] }}</td>
+                        <td>{{ x[2] }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+    
+{% endblock %}
